@@ -1,13 +1,11 @@
 modLoader="javafml"
 loaderVersion="[34,)"
-issueTrackerURL="https://github.com/quek04/The-Undergarden/issues"
+issueTrackerURL="https://github.com/quek04/IBC/issues"
 license="MIT"
 [[mods]]
 modId="ibc"
 version="${file.jarVersion}"
 displayName="Inconspicuous Bean Can"
-logoFile="logo.png"
-logoBlur=false
 credits=""
 authors="quek"
 description='''Just an ordinary can of beans...'''
