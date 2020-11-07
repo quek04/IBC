@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "icon": {
+      "item": "ibc:inconspicuous_bean_can"
+    },
+    "title": {
+      "translate": "advancements.adventure.find_beans.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.find_beans.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bean_can": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ibc:inconspicuous_bean_can"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bean_can"
+    ]
+  ]
+}

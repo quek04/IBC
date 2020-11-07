@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ibc:item/inconspicuous_bean_can"
+  }
+}

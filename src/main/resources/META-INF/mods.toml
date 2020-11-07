@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[34,)"
+issueTrackerURL="https://github.com/quek04/The-Undergarden/issues"
+license="MIT"
+[[mods]]
+modId="ibc"
+version="${file.jarVersion}"
+displayName="Inconspicuous Bean Can"
+logoFile="logo.png"
+logoBlur=false
+credits=""
+authors="quek"
+description='''Just an ordinary can of beans...'''
+[[dependencies.ibc]]
+modId="forge"
+mandatory=true
+versionRange="[34,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.ibc]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.3,1.16.4]"
+ordering="NONE"
+side="BOTH"
