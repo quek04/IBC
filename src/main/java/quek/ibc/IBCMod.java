@@ -9,6 +9,7 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Rarity;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.storage.loot.LootPool;
 import net.minecraft.world.level.storage.loot.entries.LootTableReference;
@@ -34,6 +35,7 @@ public class IBCMod {
     private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
 
     private static final RegistryObject<Item> BEAN_CAN = ITEMS.register("inconspicuous_bean_can", () -> new BeanCanItem((new Item.Properties())
+            .rarity(Rarity.EPIC)
             .tab(CreativeModeTab.TAB_FOOD)
             .food(new FoodProperties.Builder()
                     .nutrition(2)
