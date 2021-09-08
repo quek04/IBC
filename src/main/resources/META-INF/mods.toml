@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[34,)"
+loaderVersion="[37,)"
 issueTrackerURL="https://github.com/quek04/IBC/issues"
 license="MIT"
 [[mods]]
@@ -12,12 +12,12 @@ description='''Just an ordinary can of beans...'''
 [[dependencies.ibc]]
 modId="forge"
 mandatory=true
-versionRange="[34,)"
+versionRange="[37,)"
 ordering="NONE"
 side="BOTH"
 [[dependencies.ibc]]
 modId="minecraft"
 mandatory=true
-versionRange="[1.16.3,1.16.4]"
+versionRange="[1.17.1]"
 ordering="NONE"
 side="BOTH"
